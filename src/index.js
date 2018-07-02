@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import App from './app/components/App';
+import {TitleComponent} from './app/components';
 
-render(<App />, document.getElementById('root'));
+render(<TitleComponent text='Hello World!!' />, document.getElementById('root'));

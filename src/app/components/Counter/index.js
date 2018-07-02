@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './style.scss';
 
 class Counter extends Component {
   state = {
@@ -8,7 +9,6 @@ class Counter extends Component {
   render = () => (
       <div>
         <h2>Counter {this.state.num}</h2>
-
         <button
           onClick={() =>
             this.setState({
